@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TUKLAS | Creative Marketing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav-glass">
+    <div class="w3-bar w3-padding w3-container">
+        <a href="#home" class="w3-bar-item sync logo">TUKLAS</a>
+        <div class="w3-right w3-hide-small sync nav-links">
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+            <a href="#packages" class="w3-bar-item w3-button">PACKAGES</a>
+            <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+        </div>
+    </div>
+</nav>
+
+<header class="hero-wrapper" id="home">
+    <video autoplay muted loop playsinline id="video-bg">
+        <source src="assets/background.mp4" type="video/mp4">
+    </video>
+    <div class="w3-center hero-content">
+        <h1 class="clean-title" onclick="toggleMode()">TUKLAS</h1>
+        
+        <div class="minimal-line"></div>
+        <p class="sync subtitle">Marketing Firm</p>
+        <p class="framework-text">The Ultimate Key to Local Advancement and Sustainability</p>
+        <a href="#about" class="btn-minimal">Launch Project</a>
+    </div>
+</header>
+
+<main class="w3-content main-container">
+    <section class="w3-row w3-padding-64 reveal" id="about">
+        <div class="w3-col m6 w3-container about-text"> 
+            <h2 class="sync">The Studio</h2>
+            <div class="accent-line"></div>
+            <p class="description"></p>
+            <p class="tagline">"Minimalist by nature, Bicolano at heart"</p>
+        </div>
+        <div class="w3-col m6 w3-container">
+         <img src="assets/tuklas2.png" alt="Work" class="featured-img">    </div>
+    </section>
+
+    <section class="w3-padding-64 reveal" id="packages">
+    <h2 class="sync w3-center section-title">Services</h2>
+    <div class="services-grid">
+
+        <!-- Basic Package -->
+        <div class="card">
+            <h4 class="card-title">Basic Package</h4>
+            <p class="card-price">2,999</p>
+            <div class="card-line"></div>
+            <ul class="card-desc">
+                <li>Simple Branding Strategy</li>
+                <li>Basic Content Creation (Simple Photos/Videos)</li>
+                <li>Social Media Posting (Limited Platforms)</li>
+                <li>Performance Monitoring (Basic Insight)</li>
+            </ul>
+        </div>
+
+        <!-- Standard Package -->
+        <div class="card">
+            <h4 class="card-title">Standard Package</h4>
+            <p class="card-price">4,999</p>
+            <div class="card-line"></div>
+            <ul class="card-desc">
+                <li>Enhanced Branding & Scheduling</li>
+                <li>Content Creation (Photos/Short Videos)</li>
+                <li>Social Media Management (Regular Posting)</li>
+                <li>Engagement Handling (Comment/Messages)</li>
+                <li>Performance Tracking (Monthly Report)</li>
+                <li>Strategy Adjustment</li>
+            </ul>
+        </div>
+
+        <!-- Premium Package -->
+        <div class="card">
+            <h4 class="card-title">Premium Package</h4>
+            <p class="card-price">9,999</p>
+            <div class="card-line"></div>
+            <ul class="card-desc">
+                <li>Advanced Marketing Strategy Development</li>
+                <li>Professional Content Production (Video & High-Quality Branding & Photos/Simple Posts)</li>
+                <li>Multi-Platform Campaign Execution (FB, IG, TikTok, SEO)</li>
+                <li>Paid Ads & Promotion Strategy</li>
+                <li>Community Engagement & Lead Generation</li>
+                <li>Optimization & Scaling Strategy</li>
+                <li>Review and Continuous Support</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+</main>
+
+<footer class="w3-container w3-padding-64 w3-center reveal" id="contact">
+    <h2 class="sync footer-heading">Connect with us</h2>
+    <div class="minimal-line"></div>
+    <div class="social-wrapper">
+        <a href="https://facebook.com/profile.php?id=61587444014918" target="_blank" class="social-link">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg>
+            <span class="sync social-label">Facebook</span>
+        </a>
+        <a href="https://www.tiktok.com/@tuklasmarketingfirm" target="_blank" class="social-link">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/></svg>
+            <span class="sync social-label">TikTok</span>
+        </a>
+        <a href="https://www.instagram.com/tuklasmarketingfirm" target="_blank" class="social-link">
+    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.34 3.608 1.315.975.975 1.253 2.242 1.315 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.34 2.633-1.315 3.608-.975.975-2.242 1.253-3.608 1.315-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.34-3.608-1.315-.975-.975-1.253-2.242-1.315-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.849c.062-1.366.34-2.633 1.315-3.608C4.523 2.503 5.79 2.225 7.156 2.163 8.421 2.105 8.801 2.163 12 2.163zm0-2.163C8.737 0 8.332.013 7.052.072 5.775.131 4.659.412 3.682 1.389c-.977.977-1.258 2.093-1.317 3.37C2.013 5.668 2 6.073 2 9.337v5.326c0 3.264.013 3.669.072 4.949.059 1.277.34 2.393 1.317 3.37.977.977 2.093 1.258 3.37 1.317 1.28.059 1.685.072 4.949.072s3.669-.013 4.949-.072c1.277-.059 2.393-.34 3.37-1.317.977-.977 1.258-2.093 1.317-3.37.059-1.28.072-1.685.072-4.949V9.337c0-3.264-.013-3.669-.072-4.949-.059-1.277-.34-2.393-1.317-3.37-.977-.977-2.093-1.258-3.37-1.317C15.669.013 15.264 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+    </svg>
+    <span class="sync social-label">instagram</span>
+</a>
+        <a href="mailto:tuklasmarketingfirm@gmail.com" class="social-link">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47a1 1 0 0 0 .892.742h12.235a1 1 0 0 0 .892-.742M1 11.105l4.708-2.897L1 5.383z"/></svg>
+            <span class="sync social-label">Gmail</span>
+        </a>
+    </div>
+    <p class="copyright">© 2026 TUKLAS STUDIO</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
